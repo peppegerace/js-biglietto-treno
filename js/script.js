@@ -31,5 +31,6 @@ console.log(prezzoBiglietto);
 messaggio = `Il prezzo del tuo biglietto è: ${prezzoBiglietto = prezzoBiglietto.toFixed(2)}€`;
 console.log(messaggio);
 
+
 document.getElementById("train").innerHTML = messaggio;
 
